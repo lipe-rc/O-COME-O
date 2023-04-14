@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	background: #333;
+}
+
+.menu{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	border-collapse:collapse;
+}
+.menu tr td{
+	border: 2px solid black;
+}
+
+.corpo{
+	font-size: 25px;
+	font-family:Tahoma;
+	font-weight: bold;
+
+}
+
+.texto{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 300px;
+	margin-bottom: 50px;
+
+}
+
+.texto > span{
+	font-size: 20px;
+	font-weight:bold;
+}
+
+.resultado{
+	font-size: 20px;
+}
